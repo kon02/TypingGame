@@ -1,0 +1,21 @@
+body {
+    padding-top: 40px;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    background-color: rgb(255, 243, 196);
+}
+
+#target {
+    font-size: 48px;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px; /* 結果との間隔を広げる */
+    border-bottom: 2px solid #333; /* 下線を追加する */
+    display: inline-block; /* 幅を中央寄せするために必要 */
+    padding-bottom: 8px; /* 下線とテキストの間隔 */
+}
+
+#result {
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    margin-top: 20px; /* 結果との間隔を広げる */
+}
